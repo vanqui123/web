@@ -1,0 +1,136 @@
+:root{
+    --primary-color:#ee4d2d;
+    --white-color:#dcdcdc;
+    --black--color:#000;
+    --text-color:rgb(116, 114, 114);
+     --border-color: #dbdbdb;
+     --navbar-height:34px;
+     --header-height:120px;
+     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --star-gold-color:#FFCE3E;
+    --text-hover:rgb(20, 20, 184);
+    --hover-img:#ff3366;
+    --border-text:rgb(122, 118, 118);
+    --icon-business:#994db1;
+    --icon-travel: #2590ed;
+    --icon-video:#0d30c3;
+    --icon-lifestyle:#c74970;
+    --icon-market:#ed7e4f;
+    --text-heding:rgba(0,0,0,0.8);
+    }
+ *{
+    box-sizing: inherit;
+        padding: 0;
+    }
+    body{
+        margin: 0px;
+   
+    }
+ html{
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.3rem;
+        box-sizing: border-box;
+    }
+    @keyframes headernotifyGrowth{
+        from{
+            opacity: 0;
+            transform: scale(0);
+        }
+        to{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    @keyframes img {
+        from{
+            opacity: 0;
+           
+        }
+        to{
+            opacity: 1;
+           
+        }
+    }
+    @keyframes imgAmnimaton {
+        from {
+            
+            opacity: 0;
+            margin-top: 42px;
+            margin-right: -44px;
+        
+                                      
+        }
+        to {
+            opacity: 1;
+            margin-top: 0;
+            margin-right: 0;         
+        }
+    }
+    @keyframes imgAmnimatonFix {
+        from {
+            
+            opacity: 0;
+            margin-top: 35px;
+            margin-right: -35px;
+        
+                                      
+        }
+        to {
+            opacity: 1;
+            margin-top: 0;
+            margin-right: 0;         
+        }
+    }
+    @keyframes textAnimation {
+    from {
+        padding-top: 180px;
+    }
+    to {
+        padding-top: 140px;
+    }
+}
+    @keyframes textAnimationArtCulture {
+        from {
+            padding-top: 145px;
+        }
+        to {
+            padding-top: 110px;
+        }
+    }
+
+    @keyframes textAnimationTravel {
+        from {
+            padding-top:65px;
+        }
+        to {
+            padding-top: 50px;
+        }
+    }
+    @keyframes textAnimationVideo {
+        from {
+            padding-top:230px;
+        }
+        to {
+            padding-top: 200px;
+        }
+    }
+    @keyframes textAnimationVideo2 {
+        from {
+            padding-top:70px;
+        }
+        to {
+            padding-top: 55px;
+        }
+    }
+    @keyframes textAnimationLatest {
+        from {
+            padding-top: 270px;
+        }
+        to {
+            padding-top: 250px;
+        }
+    }
+ 
